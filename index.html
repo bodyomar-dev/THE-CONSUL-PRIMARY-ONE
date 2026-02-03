@@ -13,7 +13,7 @@
 
   <style>
     :root{
-      --bg1:#0b0620;
+      --bg1:#0b0620;[
       --bg2:#160a3b;
       --glass: rgba(255,255,255,.10);
       --glass2: rgba(255,255,255,.06);
@@ -253,8 +253,8 @@
       <h2>تسجيل دخول الطالبة</h2>
       <p class="muted">ادخلي كود الدخول (PIN) لتظهر الوحدات والدروس.</p>
       <div class="spacer"></div>
-      <input class="input" id="pinInput" inputmode="numeric" placeholder="مثال: 246810" />
-      <div class="hint">لو نسيتِ الكود: اطلبِيه من المعلم.</div>
+      <input class="input" id="pinInput" inputmode="numeric" placeholder="مثال: كلمة السر " />
+      <div class="hint">لو نسيتِ الكود: اطلبِيه من مستر عمر </div>
       <div class="spacer"></div>
       <button class="btn primary" id="loginBtn">دخول</button>
       <div class="spacer"></div>
@@ -275,7 +275,7 @@
   <!-- APP -->
   <section id="appView" style="display:none">
     <section class="card">
-      <h2>أولى ابتدائي (بنات)</h2>
+      <h2>أولى ابتدائي </h2>
       <p class="muted">اضغطي على Unit لفتح قائمة الدروس (Lesson 1–6).</p>
       <div class="spacer"></div>
       <div class="list" id="unitsList"></div>
@@ -500,3 +500,4 @@ if(state.user) showApp(); else showLogin();
 
 </body>
 </html>
+
